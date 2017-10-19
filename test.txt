@@ -1,2 +1,3 @@
 1. Pierwsze zajęcia z oprogramowaniem git
 2. Pierwsza zmiana w pliku
+3. Druga zmiana w pliku
