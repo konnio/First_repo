@@ -1,9 +1,10 @@
 ## Powtórzenie podstawowych komend systemu linux
 - pwd
 - clear
-- ls
+- ls -al
 - pwd
 - cd 
+- cd ..
 - mkdir Firs_repo
   
 - mkdir 1 2 3 4
@@ -14,34 +15,21 @@
 -  git --version 
 -  git --help 
   
-
-  cd First_repo/
-  101  touch test.txt
-  102  cat test2.txt
-  103  nano test.txt 
-  104  ls -la
-  105  vim test.txt 
-  106  cat test.txt 
-  107  git init 
-  108  ls -al
-  109  git status
-  110  git add test.txt 
-  111  git status
-  112  git config --global user.email "konnio@gmail.com"
-  113  git config --global user.name "konnio"
-  114  git commit -m "utworzenie nowego katalogu"
-  115  git status 
-  116  git log
-  117  clear
-  118  ls -al
-  119  vim test.txt 
-  120  ifgrep
-  121  netcat 
-  122  netcat port 80
-  123  history
-  124  vim test.txt 
-  125  git status 
-  126  git add .
+### Inicjacja oraz obsluga git
+-  First_repo/
+-  touch test.txt
+-  vim test.txt 
+-  git init 
+ 
+-   git status
+-   git add test.txt 
+-   git config --global user.email "konnio@gmail.com"
+-   git config --global user.name "konnio"
+-   git commit -m "utworzenie nowego katalogu"
+-   git status 
+-   git log
+  
+126  git add .
   127  git commit -m "Pierwsza zmiana w pliku"
   128  git log 
   129  vim test.txt 
