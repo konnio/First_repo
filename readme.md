@@ -17,10 +17,9 @@
 
 ## 3. Instalacja systemu do zarządzania repozytorium `git`
 -  *sudo apt install git*
--  *git --version *
 -  *git --help* 
   
-## Inicjacja oraz obsluga git
+## 4. Inicjacja oraz obsluga git
 -  *cd First_repo/*
 -  *touch test.txt*
 -  *vim test.txt* 
@@ -28,8 +27,8 @@
  
 -   *git status*
 -   *git add test.txt*
--   *git config --global user.email "konnio@gmail.com"*
--   *git config --global user.name "konnio"*
+-   *git config --global user.email "moj_email@mail.com"*
+-   *git config --global user.name "moj_login_w_github"*
 -   *git commit -m "utworzenie nowego katalogu"*
 -   *git status*
 -   *git log*
@@ -39,14 +38,13 @@
 -   *git add test.txt*
 -   *git commit -m "Druga zmiana w pliku"*
 
-Polaczenie ze zdalnym repozytorium
-  git remote add origin https://github.com/konnio/First_repo.git
-  git push -u origin master
-  vim test.txt 
-  git add test.txt 
-  git commit -m "Trzecia zmiana w pliku"
-  git push -u origin master
-  git add .
-  git commit -m "To już czwarta zmiana"
-  git push
-
+## 5. Polaczenie ze zdalnym repozytorium
+-  git remote add origin https://github.com/konnio/First_repo.git
+-  git push -u origin master
+-  vim test.txt 
+-  git add test.txt 
+-  git commit -m "Trzecia zmiana w pliku"
+-  git push -u origin master
+-  git add .
+-  git commit -m "To już czwarta zmiana"
+-  git push
