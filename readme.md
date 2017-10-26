@@ -1,33 +1,33 @@
 ## Powtórzenie podstawowych komend systemu linux
-- pwd
+- *pwd
 - clear
 - ls -al
 - pwd
 - cd 
 - cd ..
-- mkdir Firs_repo
+- mkdir Firs_repo*
   
-- mkdir 1 2 3 4
-- rm -d 1 2 3 4 
+- *mkdir 1 2 3 4
+- rm -d 1 2 3 4*
 
-## Instalacja systemu do zarządzania repozytorium git
+## Instalacja systemu do zarządzania repozytorium `git`
 -  sudo apt install git
 -  git --version 
 -  git --help 
   
 ### Inicjacja oraz obsluga git
--  First_repo/
+-  First_repo/   
 -  touch test.txt
 -  vim test.txt 
--  git init 
+-  git init     
  
--   git status
+-   *git status
 -   git add test.txt 
 -   git config --global user.email "konnio@gmail.com"
 -   git config --global user.name "konnio"
 -   git commit -m "utworzenie nowego katalogu"
 -   git status 
--   git log
+-   git log*
   
 126  git add .
   127  git commit -m "Pierwsza zmiana w pliku"
