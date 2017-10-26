@@ -1,21 +1,21 @@
 ## Powtórzenie podstawowych komend systemu linux
-- *pwd
-- clear
-- ls -al
-- pwd
-- cd 
-- cd ..
-- mkdir Firs_repo*
+- *pwd*
+- *clear*
+- *ls -al*
+- *pwd*
+- *cd* 
+- *cd ..*
+- *mkdir Firs_repo*
   
-- *mkdir 1 2 3 4
-- rm -d 1 2 3 4*
+- *mkdir 1 2 3 4*
+- *rm -d 1 2 3 4*
 
 ## Instalacja systemu do zarządzania repozytorium `git`
 -  sudo apt install git
 -  git --version 
 -  git --help 
   
-### Inicjacja oraz obsluga git
+## Inicjacja oraz obsluga git
 -  First_repo/   
 -  touch test.txt
 -  vim test.txt 
