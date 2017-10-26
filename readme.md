@@ -1,3 +1,9 @@
+# NOTATKA Z WYKLADU
+
+## 1. Przygotowanie srodowiska pracy
+- instalacja VirtualBox
+- instalacja systemu Ubuntu
+
 ## Powtórzenie podstawowych komend systemu linux
 - *pwd*
 - *clear*
