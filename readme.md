@@ -39,12 +39,12 @@
 -   *git commit -m "Druga zmiana w pliku"*
 
 ## 5. Polaczenie ze zdalnym repozytorium
--  git remote add origin https://github.com/konnio/First_repo.git
--  git push -u origin master
--  vim test.txt 
--  git add test.txt 
--  git commit -m "Trzecia zmiana w pliku"
--  git push -u origin master
--  git add .
--  git commit -m "To już czwarta zmiana"
--  git push
+-  *git remote add origin https://github.com/konnio/First_repo.git*
+-  *git push -u origin master*
+-  *vim test.txt*
+-  *git add test.txt*
+-  *git commit -m "Trzecia zmiana w pliku"*
+-  *git push -u origin master*
+-  *git add .*
+-  *git commit -m "To już czwarta zmiana"*
+-  *git push*
